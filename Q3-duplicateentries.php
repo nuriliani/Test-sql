@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-		 $dbhost = 'localhost';
+	 $dbhost = 'localhost';
          $dbuser = 'root';
          $dbpass = '';
          $conn = mysql_connect($dbhost, $dbuser, $dbpass);
