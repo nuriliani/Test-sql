@@ -5,7 +5,7 @@
 </head>
 <body>
 <?php
-		 $dbhost = 'localhost';
+	 $dbhost = 'localhost';
          $dbuser = 'root';
          $dbpass = '';
          $conn = mysql_connect($dbhost, $dbuser, $dbpass);
@@ -40,7 +40,7 @@
 			echo"Successfully create table for: users";
 		}else echo"Error:" .mysql_error();
          
-         if(mysql_query($sql2,$conn)){
+         	if(mysql_query($sql2,$conn)){
 			echo"Successfully create table for : user_signin_logs ";
 		}else echo"Error:" .mysql_error();
          
